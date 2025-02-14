@@ -1,4 +1,4 @@
-@import './node_modules/bootstrap/scss/bootstrap.scss';
+@use 'bootstrap/scss/bootstrap' as *;
 
 #wrapper {
     overflow-x: hidden;

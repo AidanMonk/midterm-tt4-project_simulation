@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox Themed Fox List</title>
+    <!-- Link to the compiled CSS from Webpack -->
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar (same as previous) -->
+            <div class="col-md-2 sidebar">
+                <a href="#">Home</a>
+                <a href="#">Fox List</a>
+                <a href="#">Settings</a>
+            </div>
+
+            <div class="col-md-10">
+                <h1>Fox Themed Fox List</h1>
+                <table class="table table-bordered mt-3" id="fox-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Name</th>
+                            <th>Species</th>
+                            <th>Region</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table data will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the compiled JS from Webpack -->
+    <script src="dist/main.js"></script>
+</body>
+
+</html>
