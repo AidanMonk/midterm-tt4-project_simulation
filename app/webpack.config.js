@@ -6,7 +6,7 @@ module.exports = {
   entry: {
     index: "./index.js",
     // list: "./list.js",
-    // edit: "./edit.js",
+     edit: "./edit.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -51,11 +51,11 @@ module.exports = {
     //   chunks: ["list", "main"],
     //   filename: "list.html",
     // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./edit.html",
-    //   chunks: ["edit", "main"],
-    //   filename: "edit.html",
-    // }),
+     new HtmlWebpackPlugin({
+       template: "./edit.html",
+       chunks: ["edit", "main"],
+       filename: "edit.html",
+     }),
   ],
   devServer: {
     static: "./dist",
